@@ -9,7 +9,7 @@ The developed object-based Python library can perform a MPO based time evolution
 
 The used assumptions are the following: The system is one-dimensional and finite. There are no periodic boundary conditions between the last and the first site. The local Hilbert space dimension $d$ as well as the MPO dimension $D$ are identical for each site. 
 
-In general, models that compile with the assumptions above can be implemented by defining the MPO in the MPO class and referencing it in the respective model class. The implemented models in `TeNW/model.py` are the quantum clock model for nearest-neighbor interactions (`ClockModel_NN`) and nearest- and next-nearest-neighbor interactions (`ClockModel_NNN`). The file and object structure of the library can be found below.
+In general, models that compile with the assumptions above can be implemented by defining the MPO in `TeNW/mpo_network.py` and referencing it in the newly created corresponding model in `TeNW/model.py`. The implemented models in `TeNW/model.py` are the quantum clock model for nearest-neighbor interactions (`ClockModel_NN`) and nearest- and next-nearest-neighbor interactions (`ClockModel_NNN`). The file and object structure of the library can be found below.
 
 ```
 TeNW
