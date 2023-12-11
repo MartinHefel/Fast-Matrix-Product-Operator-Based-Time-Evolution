@@ -11,4 +11,4 @@ The used assumptions are the following: The system is one-dimensional and finite
 
 In general, models that compile with the assumptions above can be implemented by defining the MPO in the MPO class and referencing it in the respective model class. The implemented models in `TeNW/model.py` are the quantum clock model for nearest-neighbor interactions (`ClockModel_NN`) and nearest- and next-nearest-neighbor interactions (`ClockModel_NNN`). The Image below illustrates the object structure of the library (left) and the relation between the objects (right). Every object can be used and tested separately, which is why every object relies on the backend.
 
-![ObjectStructure](https://github.com/MartinHefel/Fast-Matrix-Product-Operator-Based-Time-Evolution/assets/58234958/9c2c2b14-0e79-4638-a2bc-7dbdf49835c0)
+![ObjectStructure](https://github.com/MartinHefel/Fast-Matrix-Product-Operator-Based-Time-Evolution/assets/58234958/9485dbb5-ec89-4f07-a04d-bb7ad32ac5e1)
