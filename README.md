@@ -1,4 +1,4 @@
-This repository contains the code developed during the course of my bachelor's thesis:
+This repository contains the code developed during the course of my [bachelor's thesis](https://mediatum.ub.tum.de/1731837):
 # Fast Matrix Product Operator Based Time Evolution
 
 ### Thesis Information
